@@ -15,6 +15,7 @@
 		84B3A72F2747847F0025ABD1 /* Forecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B3A72E2747847F0025ABD1 /* Forecast.swift */; };
 		84B3A731274798310025ABD1 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B3A730274798310025ABD1 /* APIService.swift */; };
 		84B3A7332748D9000025ABD1 /* FetchWeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B3A7322748D9000025ABD1 /* FetchWeatherData.swift */; };
+		84B3A74F274CEE440025ABD1 /* FetchWeatherData2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B3A74E274CEE440025ABD1 /* FetchWeatherData2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		84B3A72E2747847F0025ABD1 /* Forecast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forecast.swift; sourceTree = "<group>"; };
 		84B3A730274798310025ABD1 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 		84B3A7322748D9000025ABD1 /* FetchWeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchWeatherData.swift; sourceTree = "<group>"; };
+		84B3A74E274CEE440025ABD1 /* FetchWeatherData2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchWeatherData2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				84B3A72E2747847F0025ABD1 /* Forecast.swift */,
 				84B3A730274798310025ABD1 /* APIService.swift */,
 				84B3A7322748D9000025ABD1 /* FetchWeatherData.swift */,
+				84B3A74E274CEE440025ABD1 /* FetchWeatherData2.swift */,
 			);
 			path = LineWeather;
 			sourceTree = "<group>";
@@ -155,6 +158,7 @@
 				84B3A71F2746958E0025ABD1 /* LineWeatherApp.swift in Sources */,
 				84B3A72D2746CADE0025ABD1 /* WeatherButton.swift in Sources */,
 				84B3A7332748D9000025ABD1 /* FetchWeatherData.swift in Sources */,
+				84B3A74F274CEE440025ABD1 /* FetchWeatherData2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,7 +302,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = org.ant7.warchallenge.LineWeather;
+				PRODUCT_BUNDLE_IDENTIFIER = org.ant7.lineweather;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -327,7 +331,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = org.ant7.warchallenge.LineWeather;
+				PRODUCT_BUNDLE_IDENTIFIER = org.ant7.lineweather;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
